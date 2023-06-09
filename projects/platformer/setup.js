@@ -16,7 +16,7 @@ const playerScale = 0.8; //makes the player just a bit smaller. Doesn't affect t
 
 // Player variables
 const player = {
-  x: 90,
+  x: 900,
   y: 700,
   speedX: 0,
   speedY: 0,
@@ -97,4 +97,6 @@ var collectableList = {
   kennedi: { image: "images/collectables/kennedi-head.png" },
   max: { image: "images/collectables/max-head.png" },
   steve: { image: "images/collectables/steve-head.png" },
+  banana: { image: "images/collectables/bananacollect.png" },
+  popsicle: { image: "images/collectables/popsicle.png" },
 };
